@@ -1,0 +1,36 @@
+body {
+  font-family: 'Times New Roman', Tahoma, Geneva, Verdana, sans-serif;
+  background: gray;
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  border-radius: 50px;
+  border: solid white;
+  border-width: 1.5px;
+}
+
+.grow-on-hover {
+  transition: transform .2s ease;
+}
+
+.grow-on-hover:hover {
+  transform: scale(1.2);
+}
+
+.grow-on-hover:active {
+  transform: scale(0.8);
+}
+
+
+
